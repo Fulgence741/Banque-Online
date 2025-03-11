@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e0f2f7, #b2ebf2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header-titre {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #f0f8ff;
+    color: green;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.bienvenue {
+    font-size: 1.5em;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    background-color: #f0f8ff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #007bff;
+}
+
+.solde {
+    font-size: 1.3em;
+    margin-bottom: 25px;
+    color: #333;
+    width: 100%;
+    text-align: center;
+}
+
+.bloque {
+    color: #d9534f;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.virement {
+    background-color: #ffe0b2; /* Couleur de fond pour le virement */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    width: 100%;
+    text-align: center;
+    color: #d84315; /* Couleur du texte pour le virement */
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.deconnexion {
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

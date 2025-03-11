@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Connexion</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="titre-vert">Bienvenue Chez Crédit Agricole</h2>
+        <input type="email" id="email" placeholder="Adresse e-mail"><br><br>
+        <input type="password" id="password" placeholder="Mot de passe"><br><br>
+        <button onclick="verifierConnexion()">Se connecter</button>
+    </div>
+
+    <script>
+        function verifierConnexion() {
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+
+            if (email === 'DominiqueDuval4@gmail.com' && password === 'Dominique4478') {
+                window.location.href = 'accueil.html'; // Redirection
+            } else {
+                alert('Identifiants incorrects.');
+            }
+        }
+    </script>
+</body>
+</html>
